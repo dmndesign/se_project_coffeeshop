@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   gap: 20px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -19,6 +19,11 @@
 .nav__link {
   text-decoration: none;
   color: #000;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: 0.5s;
 }
 
 .nav__logo {
